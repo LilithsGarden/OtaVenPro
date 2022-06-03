@@ -1,0 +1,778 @@
+body{
+	background-color:white;	
+	margin:0;
+}
+
+.case {
+	background-color:#B26A0F;
+	position:relative;
+	height:1350px;
+	width: 80%;
+	left:270px;
+}
+
+.logo {
+	background-color:#8C5A1A;
+	position:absolute;
+	height:90px;
+	width:100%;	
+}
+
+.logop {
+	height:90px;
+	width:120px;
+	position:absolute;
+}
+
+.head {
+	position:absolute;
+	left:300px;
+	color:white;
+	font-family:papyrus;
+	
+}
+	
+.logopi {
+	height:90px;
+	width:120px;
+	position:absolute;
+	left:959px;
+	top:0px;
+}
+
+/*Welcome message button*/
+.button_1 {
+	position:absolute;
+	left:125px;
+	bottom:7px;
+	color:#8C5A1A;
+	background-color:#52340D;
+	text-align:center;
+	border-radius:5px;
+	border:none;
+	cursor:pointer;
+	font-size:18px;
+	display:inline-block;
+	padding:0px 10px;
+	text-decoration:none;
+	box-shadow: 0 3px #1C1205;
+	height:40px;
+}
+
+.button_1:hover {
+	background-color:#DA904E;
+}
+
+.button_1:active {
+	background-color: #DA904E;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+#demo {
+	position:absolute;
+	bottom:-23px;
+	left:330px;
+	color:white;
+	font-family:papyrus;
+	font-size:20px;
+}
+
+.search-container {
+	background-color:white;
+	position:absolute;
+	height:70px;
+	width:100%;
+	top:90px;
+}
+
+.search {
+	position:relative;
+	height:40px;
+	width:800px;
+	font-size:20px;
+	top:7px;
+	right:-10px;
+	font-family:papyrus;
+}
+
+.fa-search {
+	position:absolute;
+	font-size:35px;
+	top:15px;
+	right:-65px;
+}
+
+.fa-search {
+	cursor:pointer;
+}
+
+/*Login button css*/
+.button_2 {
+	position:relative;
+	left:900px;
+	top:-36px;
+	color:#8C5A1A;
+	background-color:white;
+	text-align:center;
+	border-radius:5px;
+	border:2px solid #8C5A1A;
+	cursor:pointer;
+	font-size:18px;
+	display:inline-block;
+	padding:0px 10px;
+	text-decoration:none;
+	box-shadow: 0 3px #8C5A1A;	
+}
+
+.button_2:hover {
+	background-color:#B6B4AD;
+}
+
+.button_2:active {
+	background-color: #B6B4AD;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+/*Sign Up button css*/
+.button_3 {
+	position:relative;
+	left:910px;
+	top:-36px;
+	color:white;
+	background-color:#8C5A1A;
+	text-align:center;
+	border-radius:5px;
+	border:2px solid black;
+	cursor:pointer;
+	font-size:18px;
+	display:inline-block;
+	padding:0px 10px;
+	text-decoration:none;
+	box-shadow: 0 3px #1C1205;
+}
+
+.button_3:hover {
+	background-color:#DA904E;
+}
+
+.button_3:active {
+	background-color: #DA904E;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+/*footer*/
+.footer {
+	background-color:#B26A0F;
+	position:relative;
+	height:263px;
+	width:1079px;
+	top:-200px;
+	padding:40px 0;
+}
+
+.footier {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	width:100%;
+	height:40vh;
+	font-family:papyrus;
+	position:relative;
+	top:-10px;
+}
+
+.footer-heading {
+	display:flex;
+	flex-direction:column;
+	margin:0 100px;
+}
+
+.footer-heading h2 {
+	margin-bottom: 10px;
+	color:white;
+}
+
+.footer-heading a {
+	text-decoration:none;
+	margin-bottom:10px;
+	color:white;
+	font-size:15px;
+}
+
+.footer-heading a:hover {
+	color:#A21111;
+	transition:0.3s ease-out;
+}
+
+.footer .social {
+	text-align:center;
+	padding-bottom:30px;
+	color:#A21111;
+}
+
+.footer .social a {
+	font-size:50px;
+	color:white;
+	border:1px solid #A21111;
+	width:70px;
+	height:60px;
+	line-height:58px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	margin:0 30px;
+	opacity:0.55;
+	padding-bottom:30px;
+}
+
+.footer .social a:hover{
+	opacity:0.9;
+	color:#A21111;	
+}
+
+
+
+.copyright {
+	margin-top:10px;
+	text-align:center;
+	font-size:20px;
+	color:#aaa;
+	font-family:papyrus;
+	position:relative;
+	top:-30px;
+}
+
+/*Navigation Bar's Css*/
+
+.navi {
+	background-color:#8C5A1A;
+	position:absolute;
+	height:60px;
+	width:100%;
+	top:170px;
+	overflow:hidden;
+	margin: auto;
+}
+
+.activ {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	position:relative;
+	width:170px;
+	left:0px;
+}
+
+.activ:hover {
+	background-color:white;
+	color:#8C5A1A;
+	width:170px;
+	position:relative;
+	left:0px;
+}
+
+.navi a.activ {
+	background-color:#A21111;
+	color:#8C5A1A;
+	width:170px;
+	position:relative;
+	left:0px;
+}
+
+.new {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:30px;
+	position:relative;
+	width:180px;
+	left:30px;
+}
+	
+.new:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:180px;
+	position:relative;
+	left:30px;
+
+}
+
+.low {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:40px;
+	position:relative;
+	width:340px;
+}
+	
+.low:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:340px;
+	position:relative;
+	left:40px;
+}
+
+.nes {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:70px;
+	position:relative;
+	width:140px;
+}
+	
+.nes:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:140px;
+	position:relative;
+	left:70px;
+}
+
+.about {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:100px;
+	position:relative;
+	width:160px;
+}
+	
+.about:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:160px;
+	position:relative;
+	left:100px;
+}
+
+.home {
+	background-color:#A21111;
+	position:relative;
+	height:700px;
+	width:100%;
+	top:229px;
+}
+
+.promo {
+	width:1079px;
+	height:200px;
+	position:relative;
+	top:5px;
+}
+
+/*Carousel's css*/
+
+.carousel {
+	position:relative;
+	width:1079px;
+	height:250px;
+	background-color:beige;
+	top:10px;
+	margin:auto;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top: -230px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #A21111;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #A21111;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position:relative;
+  top:-210px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for cancel and login buttons */
+.cancelbtn .loge { 
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn .loge:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #A21111;
+}
+
+.cancelbtn:hover {
+	background-color:#D12222;
+}
+
+.cancelbtn:active {
+	background-color: #D12222;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+/* Extra styles for the Login button */
+.loge {
+  width: 100%;
+  padding: 10px 18px;
+  background-color: #BE871C;
+}
+
+.loge:hover {
+	background-color:#DC9408;
+}
+
+.loge:active {
+	background-color: #DC9408;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.contain {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate2 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*Sign up css*/
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for cancel and login buttons */
+.cancelbtn2 .Sign { 
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn2 .Sign:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #A21111;
+}
+
+.cancelbtn2:hover {
+	background-color:#D12222;
+}
+
+.cancelbtn2:active {
+	background-color: #D12222;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+/* Extra styles for the Login button */
+.Sign {
+  width: 100%;
+  padding: 10px 18px;
+  background-color: #BE871C;
+}
+
+.Sign:hover {
+	background-color:#DC9408;
+}
+
+.Sign:active {
+	background-color: #DC9408;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+/* Center the image and position the close button */
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.avatar2 {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.contain2 {
+  padding: 16px;
+}
+
+span.alu {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close2 {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

@@ -1,0 +1,220 @@
+<doctype html!>
+<html>
+	<head>
+		<title>OtaVen News</title>
+		<style>
+		body, html {
+		height:1700px;
+		width:1349px;
+		margin:0;
+		}
+		.background{
+		background-image: url(img/2.jpg);
+		height:2040px;
+		width:1349px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		opacity:100%;
+		}
+			</style>
+			<link rel="stylesheet" href="News.css">	
+			<script src="https://kit.fontawesome.com/bb115cc80e.js" crossorigin="anonymous"></script>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+		<body>
+		<div class="background">
+		
+			<div class="case">
+			
+				<div class="logo">
+					<img src='img/logo 7.jpg' class='logop'>
+					<h1 class="head">WELCOME TO OTAVEN</h1>
+						<button class='button_1' onClick="typeWriter()"> 
+							For You!
+						</button>
+						<p id="demo"><p>
+					<script src="News.js"></script>							
+					<img src='img/logo 4.jpg' class='logopi'>										
+				</div>
+<!--The search Container-->
+				<div class="search-container">
+					<form class="search">
+					<input type="text" placeholder="Search Merchandise..." name="search" class="search">
+					<button type="submit" class="fa fa-search">
+					<i></i>
+					</button>
+					</form>	
+<!--The pop-up Login Section-->
+						<button class='button_2' onclick="document.getElementById('id01').style.display='block'">
+							Log in
+						</button>
+						
+						<div id="id01" class="modal">
+							<form class="modal-content animate" action="/action_page.php" method="post">
+								<div class="imgcontainer">
+									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+									<img src="img/logo 2.jpg" alt="Avatar" class="avatar">
+								</div>
+								
+								<div class="contain">
+									<label for="uname"><b>Username</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+									
+									<label for="psw"><b>Password</b></label>
+									<input type="text" placeholder="Enter Password" name="psw" required>
+									
+										<button type="submit" class="loge">Login</button>
+										<label>
+											<input type="checkbox" checked="checked" name="remember">Remember me
+										</label>
+									</div>
+									
+									<div class="contain" style="background-color:#f1f1f1">
+										<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+										<span class="psw">Forgot <a href="#">password?</a></span>
+									</div>
+								</form>
+							</div>
+<!--The pop-up Sign in Section-->						
+						<button class='button_3' onclick="document.getElementById('id02').style.display='block'">
+							Sign up
+						</button>
+						
+						<div id="id02" class="modal2">
+							<form class="modal-content2 animate2" action="/action_page.php" method="post">
+								<div class="imgcontainer2">
+									<span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span>
+									<img src="img/logo 3.png" alt="Avatar" class="avatar2">
+								</div>
+								
+								<div class="contain2">
+									<label for="fname"><b>Fullname</b></label>
+									<input type="text" placeholder="Enter Fullname" name="fname" required>
+									
+									<label for="psw"><b>Password</b></label>
+									<input type="text" placeholder="Enter Password" name="psw" required>
+									
+									<label for="cpsw"><b>Confirm Password</b></label>
+									<input type="text" placeholder="Confirm Password" name="cpsw" required>
+									
+									<label for="uname"><b>Username</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+									
+									<label for="email"><b>Email</b></label>
+									<input type="email" placeholder="Email@gmail.com" name="email" required>
+									
+										<button type="submit" class="Sign">Sign Up</button>
+										<label>
+											<input type="checkbox" checked="checked" name="remember">Remember me
+										</label>
+									</div>
+									
+									<div class="contain2" style="background-color:#f1f1f1">
+										<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+										<span class="alu">Already a User <a href="#">Login?</a></span>
+									</div>
+								</form>
+							</div>
+						
+				</div>
+<!--The Navigation Bar-->				
+				<div class="navi">
+					<a class="nes" href="Index.html">Home</a>
+					<a class="new" href="New_Figures.html">New Figures</a>
+					<a class="low" href="Clothes.html">Clothes and Accessories</a>
+					<a class="activ" href="News.html">News</a>
+					<a class="about" href="CV.html">CV</a>
+				
+				</div>
+<!--The Coupon image-->				
+				<div class="home">
+					<a href="#"><img src='img/coupon.jpg' class='promo'></a>
+					<!--News-->
+						<div class="hed">
+							<h2 style="font-family:papyrus">Welcome to Ota-Feed</h2>
+						</div>
+						<div class="row">
+							<div class="leftcolumn">
+								<div class="card">
+									<h2>STAR WARS THE ANIME</h2>
+									<h5>Visons anime anthology project announced for second volume,<br>June 31st, 2022</h5>
+									<div class="fakeimg" style="height:200px; width:600px;"><img src='img/star.jpg' style="width:600px; height:200px"></div>
+									<p>This article covers the latest news regarding the recently revealed Star Wars: Visions sequel.</p>
+									<p>As mentioned above, Star Wars: Visions volume 2 was announced over this past weekend at Star Wars Celebration Anaheim. The California-based 
+									convention is a celebration of any and all things Star Wars, with many other exciting announcements for the franchise made during the event as well.<br>
+									One of the most exciting and intriguing is the second volume of Visions, which was formally announced to be on the way by Lucasfilm. The staff for 
+									the series then verbally announced that the second volume will be released in spring 2023.</p>
+								</div>
+								<div class="card">
+									<h2>SHOCKING HUNTER X HUNTER UPDATE!!</h2>
+									<h5>Hunter X Hunter mangaka Yashuhiro Togashi hints at the manga's return with 4 new chapters<br> May 24th, 2022</h5>
+									<div class="fakeimg" style="height:200px; width:700px;"><img src='img/gon.jpg' style="width:600px; height:200px"></div>
+									<p>Many Hunter X Hunter fans are just as happy as Gon and Killua to hear of the series' return</p>
+									<p>Hunter X Hunter fans are ecstatic after learning that author Yoshihiro Togashi has seemingly announced the series’ return from hiatus. 
+									The author of the acclaimed manga series posted an image of a chapter draft on Twitter, along with a cryptic message teasing four more 
+									issues in production.</p>
+								</div>
+							</div>
+							
+							<div class="rightcolumn">
+								<div class="card">
+								<h2 style="font-family:papyrus">About Us</h2>
+								<div class="fakeimg2" style="height:150px; width:260px"><img src='img/hashi.jpg' style="width:260px; height:150px"></div>
+								<p style="font-family:papyrus">We are a unique. We are probably sleep deprived. We are proud Otakus and we strive to make your day.</p>
+								</div>
+								<div class="card" style="font-family:papyrus">
+									<h3>Popular Post</h3>
+									<a href="#"><p>Meet the Hellsing Family:</p></a>
+									<a href="#"><div class="fakeimg2"><img src='img/keeps.jpg' style="width:260px; height:130px"></div></a><br>
+									<a href="#"><p>Evil Iruma?! Uh-oh:</p></a>
+									<a href="#"><div class="fakeimg2"><img src='img/Iruma.jpg' style="width:260px; height:130px"></div></a><br>
+									<a href="#"><p>Izumi finally in show biz</p></a>
+									<a href="#"><div class="fakeimg2"><img src='img/Izumi.png' style="width:260px; height:130px"></div></a>
+								</div>
+							</div>
+						</div>
+				</div>
+		<div class="footer">
+			<div class="social">
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-snapchat"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+			</div>
+			
+		<div class="footier">
+			<div class="footer-heading footer-1">
+				<h2>About Us</h2>
+				<a href="#">Blog</a>
+				<a href="#">Investors</a>
+				<a href="#">Customers</a>
+				<a href="#">Demo</a>
+				<a href="#">Terms of Services</a>
+			</div>
+			
+			<div class="footer-heading footer-2">
+				<h2>News</h2>
+				<a href="#">Animart</a>
+				<a href="#">OtaMart</a>
+				<a href="#">Trending Updates</a>
+				<a href="#">Upcoming shows</a>
+			</div>
+			
+			<div class="footer-heading footer-3">
+				<h2>Recommendations</h2>
+				<a href="#">Clothes</a>
+				<a href="#">Accessories</a>
+				<a href="#">Cosplay</a>
+				<a href="#">Jobs</a>
+			</div>
+		</div>
+			<p class="copyright">
+				Otaku haven @ 20XX
+			</p>
+		</div>
+		
+			</div>		
+		</div>
+		

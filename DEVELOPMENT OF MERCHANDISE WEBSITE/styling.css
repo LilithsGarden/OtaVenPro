@@ -1,0 +1,1060 @@
+
+
+.case {
+	width:1080px;
+	height:1870px;
+	position:relative;
+	display:flex;
+	left:260px;
+	background-color:#A21111;
+	top:0px;
+	
+	
+}
+
+
+
+.logo {
+	background-color:#8C5A1A;
+	position:absolute;
+	height:90px;
+	width:100%;	
+}
+
+.logop {
+	height:90px;
+	width:120px;
+	position:absolute;
+}
+
+.head {
+	position:absolute;
+	left:300px;
+	color:white;
+	font-family:papyrus;
+	
+}
+	
+.logopi {
+	height:90px;
+	width:120px;
+	position:absolute;
+	left:960px;
+	top:0px;
+}
+
+.button_1 {
+	position:absolute;
+	left:125px;
+	bottom:7px;
+	color:#8C5A1A;
+	background-color:#52340D;
+	text-align:center;
+	border-radius:5px;
+	border:none;
+	cursor:pointer;
+	font-size:18px;
+	display:inline-block;
+	padding:0px 10px;
+	text-decoration:none;
+	box-shadow: 0 3px #1C1205;
+	height:40px;
+	font-family:papyrus;
+}
+
+.button_1:hover {
+	background-color:#DA904E;
+}
+
+.button_1:active {
+	background-color: #DA904E;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+#demo {
+	position:absolute;
+	bottom:-23px;
+	left:330px;
+	color:white;
+	font-family:papyrus;
+	font-size:20px;
+}
+
+.search-container {
+	background-color:white;
+	position:absolute;
+	height:70px;
+	width:100%;
+	top:90px;
+}
+
+.search {
+	position:relative;
+	height:40px;
+	width:800px;
+	font-size:20px;
+	top:7px;
+	right:-10px;
+	font-family:papyrus;
+}
+
+.fa-search {
+	position:absolute;
+	font-size:30px;
+	top:8px;
+	right:-65px;
+}
+
+.fa-search {
+	cursor:pointer;
+}
+
+
+.button_2 {
+	position:relative;
+	left:900px;
+	top:-36px;
+	color:#8C5A1A;
+	background-color:white;
+	text-align:center;
+	border-radius:5px;
+	border:2px solid #8C5A1A;
+	cursor:pointer;
+	font-size:18px;
+	display:inline-block;
+	padding:0px 10px;
+	text-decoration:none;
+	box-shadow: 0 3px #8C5A1A;
+	font-family:papyrus;	
+}
+
+.button_2:hover {
+	background-color:#B6B4AD;
+}
+
+.button_2:active {
+	background-color: #B6B4AD;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+.button_3 {
+	position:relative;
+	left:910px;
+	top:-36px;
+	color:white;
+	background-color:#8C5A1A;
+	text-align:center;
+	border-radius:5px;
+	border:2px solid black;
+	cursor:pointer;
+	font-size:18px;
+	display:inline-block;
+	padding:0px 10px;
+	text-decoration:none;
+	box-shadow: 0 3px #1C1205;
+	font-family:papyrus;
+}
+
+.button_3:hover {
+	background-color:#DA904E;
+}
+
+.button_3:active {
+	background-color: #DA904E;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+.navi {
+	background-color:#8C5A1A;
+	position:absolute;
+	height:60px;
+	width:100%;
+	top:170px;
+	overflow:hidden;
+	margin: auto;
+	font-family:papyrus;
+}
+
+.active {
+	float:right;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:0px;
+	position:relative;
+	width:140px;
+}
+
+.active:hover {
+	background-color:white;
+	color:#8C5A1A;
+	width:140px;
+	position:relative;
+	left:0px;
+	padding:14px 16px;
+	float:right;
+}
+
+.navi a.active {
+	background-color:#A21111;
+	color:#8C5A1A;
+	width:140px;
+	position:relative;
+	left:0px;
+	padding:14px 16px;
+	float:right;
+}
+
+.new {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:10px;
+	position:relative;
+	width:180px;
+}
+	
+.new:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:180px;
+	position:relative;
+	left:10px;
+	padding:14px 16px;
+	float:left;
+}
+
+.low {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:10px;
+	position:relative;
+	width:340px;
+}
+	
+.low:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:340px;
+	position:relative;
+	left:10px;
+	padding:14px 16px;
+	float:left;
+}
+
+.nes {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:10px;
+	position:relative;
+	width:120px;
+}
+	
+.nes:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:120px;
+	position:relative;
+	left:10px;
+	padding:14px 16px;
+	float:left;
+}
+
+.about {
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:27px;
+	left:0px;
+	position:relative;
+	width:120px;
+}
+	
+.about:hover {
+	background-color:#481B05;
+	color:#8C5A1A;
+	width:120px;
+	position:relative;
+	left:0px;
+	padding:14px 16px;
+	float:left;
+}
+
+.home {
+	background-color:#A21111;
+	position:relative;
+	height:750px;
+	width:100%;
+	top:229px;
+}
+
+
+
+.left {
+	float:left;
+	width:300px;
+	height:1200px;
+	background-color:#8C5A1A;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	top:230px;
+	font-family:Times New Roman;
+	
+}
+
+.right {
+	float:right;
+	width:730px;
+	height:1200px;
+	background-color:white;
+	position:relative;
+	right:-50px;
+	top:230px;
+	font-family:Times New Roman;
+}
+
+.red {
+	width:100%;
+	height:280px;
+	position:absolute;
+}
+	
+.name {
+	position:absolute;
+	top:200px;
+	left:0%;
+	font-size:30px;
+	text-align:center;
+
+	
+}
+
+.tiny {
+	position:absolute;
+	top:260px;
+	left:0%;
+	
+}
+	
+.ribbon{
+	position:absolute;
+	font-family:Times New Roman;
+	
+}
+
+/*ribbon-1*/
+.ribbon-1{
+	width:310px;
+	background-color:#481B05;
+	height:50px;
+	top:330px;
+	right:-10px;
+	font-family:Times New Roman;
+	
+}
+
+.ribbon-1:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	right:-0px;
+	border-left:5px solid #0D0A01;
+	border-right:5px solid transparent;
+	border-top:5px solid #0D0A01;
+	border-bottom:5px solid transparent;
+}
+
+.hear {	
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+.map-marker-alt {
+	font-size:35px;
+	position:absolute;
+	top:400px;
+	right:260px;
+	color:white;
+}
+
+.lime{
+	position:absolute;
+	top:380px;
+	right:100px;
+	font-size:18px;
+	color:white;
+}
+
+.phone {
+	font-size:35px;
+	position:absolute;
+	top:470px;
+	right:250px;
+	color:white;
+}
+
+.lemon {
+	font-size:18px;
+	position:absolute;
+	top:455px;
+	right:100px;
+	color:white;
+}
+
+.envelope {
+	font-size:35px;
+	position:absolute;
+	top:530px;
+	right:250px;
+	color:white;
+}
+
+.orange{
+	position:absolute;
+	top:520px;
+	right:60px;
+	font-size:18px;
+	color:white;
+}
+
+.globe{
+	font-size:35px;
+	position:absolute;
+	top:590px;
+	right:250px;
+	color:white;
+}
+
+.citrus{
+	position:absolute;
+	top:580px;
+	right:92px;
+	font-size:18px;
+	color:white;
+}
+
+/*ribbon-2*/
+.ribbon-2{
+	width:310px;
+	background-color:#481B05;
+	height:50px;
+	top:650px;
+	right:-10px;	
+}
+
+.ribbon-2:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	right:-0px;
+	border-left:5px solid #0D0A01;
+	border-right:5px solid transparent;
+	border-top:5px solid #0D0A01;
+	border-bottom:5px solid transparent;
+}
+
+.first{
+	position:absolute;
+	bottom:-30px;
+	left:20px;
+	font-size:18px;
+	color:white;
+}
+
+.first_1{
+	position:absolute;
+	bottom:-30px;
+	left:130px;
+}
+
+.second{
+	position:absolute;
+	bottom:-90px;
+	left:20px;
+	font-size:18px;
+	color:white;
+}
+
+.second_2{
+	position:absolute;
+	bottom:-90px;
+	left:130px;
+}	
+
+.third{
+	position:absolute;
+	bottom:-150px;
+	left:20px;
+	font-size:18px;
+	color:white;
+}
+
+.third_3{
+	position:absolute;
+	bottom:-150px;
+	left:130px;
+}
+
+.fourth{
+	position:absolute;
+	bottom:-210px;
+	left:20px;
+	font-size:18px;
+	color:white;
+}
+
+.fourth_4{
+	position:absolute;
+	bottom:-210px;
+	left:130px;
+}
+
+/*ribbon-3*/
+.ribbon-3{
+	width:310px;
+	background-color:#481B05;
+	height:50px;
+	top:950px;
+	right:-10px;	
+}
+
+.ribbon-3:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	right:-0px;
+	border-left:5px solid #0D0A01;
+	border-right:5px solid transparent;
+	border-top:5px solid #0D0A01;
+	border-bottom:5px solid transparent;
+}
+
+.nice_1{
+	position: absolute;
+	top: 60px;
+	left:20px;
+	color:white;
+}	
+
+.nice_2{
+	position: absolute;
+	top: 100px;
+	left:20px;
+	color:white;
+}	
+
+.nice_3{
+	position: absolute;
+	top: 140px;
+	left:20px;
+	color:white;
+}
+
+.nice_4{
+	position: absolute;
+	top: 180px;
+	left:20px;
+	color:white;
+}	
+
+.nice_5{
+	position: absolute;
+	top: 60px;
+	left:140px;
+	color:white;
+}	
+
+.nice_6{
+	position: absolute;
+	top: 100px;
+	left:140px;
+	color:white;
+}	
+
+.ribbon-4{	
+	width:750px;
+	background-color:#8C5A1A;
+	height:50px;
+	bottom:1125px;
+	left:-20px;
+
+}
+
+.ribbon-4:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	left:-0px;
+	border-left:10px solid transparent;
+	border-right:10px solid #A9ACCF;
+	border-top:5px solid #A9ACCF;
+	border-bottom:5px solid transparent;
+}
+
+.head_2{
+	position: absolute;
+	left: 170px;
+	top: 15%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+.person{
+	position:absolute;
+	top:80px;
+	font-size:20px;
+}
+
+.ribbon-5{	
+	width:750px;
+	background-color:#8C5A1A;
+	height:50px;
+	bottom:900px;
+	left:-20px;
+
+}
+
+.ribbon-5:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	left:-0px;
+	border-left:10px solid transparent;
+	border-right:10px solid #A9ACCF;
+	border-top:5px solid #A9ACCF;
+	border-bottom:5px solid transparent;
+}
+
+.head_3{
+	position: absolute;
+	left: 120px;
+	top: 15%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+	
+
+table, th, td {
+	border:1px solid black;
+	border-collapse:collapse;
+	width:700px;
+}
+table{
+	position:relative;
+	top:80px;
+	left:30px;
+}
+
+.ribbon-6{	
+	width:750px;
+	background-color:#8C5A1A;
+	height:50px;
+	bottom:700px;
+	left:-20px;
+
+}
+
+.ribbon-6:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	left:-0px;
+	border-left:10px solid transparent;
+	border-right:10px solid #A9ACCF;
+	border-top:5px solid #A9ACCF;
+	border-bottom:5px solid transparent;
+}
+
+.head_4{
+	position: absolute;
+	left: 160px;
+	top: 15%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+.ribbon-7{	
+	width:750px;
+	background-color:#8C5A1A;
+	height:50px;
+	bottom:430px;
+	left:-20px;
+}
+
+.ribbon-7:before{
+	content:"";
+	position:absolute;
+	bottom:-10px;
+	left:-0px;
+	border-left:10px solid transparent;
+	border-right:10px solid #A9ACCF;
+	border-top:5px solid #A9ACCF;
+	border-bottom:5px solid transparent;
+}
+	
+.head_5{
+	position: absolute;
+	left: 180px;
+	top: 15%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+ul{
+	position:absolute;
+	top:60px;
+	font-size:20px;	
+	list-style:none;
+}
+
+ul li:before {
+	content: "\2022";
+	color:#E7C005;
+	font-weight:bold;
+	display:inline-block;
+	width:1em;
+	font-size:30px;
+}
+	
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.contain {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate2 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*Sign up css*/
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for cancel and login buttons */
+.cancelbtn2 .Sign { 
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn2 .Sign:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #A21111;
+}
+
+.cancelbtn2:hover {
+	background-color:#D12222;
+}
+
+.cancelbtn2:active {
+	background-color: #D12222;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+/* Extra styles for the Login button */
+.Sign {
+  width: 100%;
+  padding: 10px 18px;
+  background-color: #BE871C;
+}
+
+.Sign:hover {
+	background-color:#DC9408;
+}
+
+.Sign:active {
+	background-color: #DC9408;
+	box-shadow: 0 2px #382718;
+	transform: translateY(2px);
+}
+
+/* Center the image and position the close button */
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.avatar2 {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.contain2 {
+  padding: 16px;
+}
+
+span.alu {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close2 {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+/*footer*/
+.footer {
+	background-color:#481B05;
+	position:relative;
+	height:340px;
+	width:1079px;
+	top:-450px;
+	padding:40px 0;
+	left:250px;
+}
+
+.footier {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	width:100%;
+	height:40vh;
+	font-family:papyrus;
+	position:relative;
+	top:0px;
+}
+
+.footer-heading {
+	display:flex;
+	flex-direction:column;
+	margin:0 100px;
+}
+
+.footer-heading h2 {
+	margin-bottom: 10px;
+	color:white;
+}
+
+.footer-heading a {
+	text-decoration:none;
+	margin-bottom:10px;
+	color:white;
+	font-size:15px;
+}
+
+.footer-heading a:hover {
+	color:#A21111;
+	transition:0.3s ease-out;
+}
+
+.footer .social {
+	text-align:center;
+	padding-bottom:30px;
+	color:#A21111;
+}
+
+.footer .social a {
+	font-size:50px;
+	color:white;
+	border:1px solid #A21111;
+	width:70px;
+	height:30px;
+	line-height:58px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	margin:0 30px;
+	opacity:0.55;
+	padding-bottom:30px;
+}
+
+.footer .social a:hover{
+	opacity:0.9;
+	color:#A21111;	
+}
+
+
+
+.copyright {
+	margin-top:10px;
+	text-align:center;
+	font-size:20px;
+	color:#aaa;
+	font-family:papyrus;
+	position:relative;
+	top:-10px;
+}
+
+

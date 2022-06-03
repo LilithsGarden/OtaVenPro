@@ -1,0 +1,236 @@
+<doctype html!>
+<html>
+	<head>
+		<title>OtaVen New Figures</title>
+		<style>
+		body, html {
+		height:1200px;
+		width:1349px;
+		margin:0;
+		}
+		.background{
+		background-image: url(img/2.jpg);
+		height:1500px;
+		width:1349px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		opacity:100%;
+		}
+			</style>
+			<link rel="stylesheet" href="New_Figures.css">	
+			<script src="https://kit.fontawesome.com/bb115cc80e.js" crossorigin="anonymous"></script>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+		<body>
+		<div class="background">
+		
+			<div class="case">
+			
+				<div class="logo">
+					<img src='img/logo 7.jpg' class='logop'>
+					<h1 class="head">WELCOME TO OTAVEN</h1>
+						<button class='button_1' onClick="typeWriter()"> 
+							For You!
+						</button>
+						<p id="demo"><p>
+					<script src="New_Figures.js"></script>							
+					<img src='img/logo 4.jpg' class='logopi'>										
+				</div>
+<!--The search Container-->
+				<div class="search-container">
+					<form class="search">
+					<input type="text" placeholder="Search Merchandise..." name="search" class="search">
+					<button type="submit" class="fa fa-search">
+					<i></i>
+					</button>
+					</form>	
+<!--The pop-up Login Section-->
+						<button class='button_2' onclick="document.getElementById('id01').style.display='block'">
+							Log in
+						</button>
+						
+						<div id="id01" class="modal">
+							<form class="modal-content animate" action="/action_page.php" method="post">
+								<div class="imgcontainer">
+									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+									<img src="img/logo 2.jpg" alt="Avatar" class="avatar">
+								</div>
+								
+								<div class="contain">
+									<label for="uname"><b>Username</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+									
+									<label for="psw"><b>Password</b></label>
+									<input type="text" placeholder="Enter Password" name="psw" required>
+									
+										<button type="submit" class="loge">Login</button>
+										<label>
+											<input type="checkbox" checked="checked" name="remember">Remember me
+										</label>
+									</div>
+									
+									<div class="contain" style="background-color:#f1f1f1">
+										<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+										<span class="psw">Forgot <a href="#">password?</a></span>
+									</div>
+								</form>
+							</div>
+<!--The pop-up Sign in Section-->						
+						<button class='button_3' onclick="document.getElementById('id02').style.display='block'">
+							Sign up
+						</button>
+						
+						<div id="id02" class="modal2">
+							<form class="modal-content2 animate2" action="/action_page.php" method="post">
+								<div class="imgcontainer2">
+									<span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span>
+									<img src="img/logo 3.png" alt="Avatar" class="avatar2">
+								</div>
+								
+								<div class="contain2">
+									<label for="fname"><b>Fullname</b></label>
+									<input type="text" placeholder="Enter Fullname" name="fname" required>
+									
+									<label for="psw"><b>Password</b></label>
+									<input type="text" placeholder="Enter Password" name="psw" required>
+									
+									<label for="cpsw"><b>Confirm Password</b></label>
+									<input type="text" placeholder="Confirm Password" name="cpsw" required>
+									
+									<label for="uname"><b>Username</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+									
+									<label for="email"><b>Email</b></label>
+									<input type="email" placeholder="Email@gmail.com" name="email" required>
+									
+										<button type="submit" class="Sign">Sign Up</button>
+										<label>
+											<input type="checkbox" checked="checked" name="remember">Remember me
+										</label>
+									</div>
+									
+									<div class="contain2" style="background-color:#f1f1f1">
+										<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+										<span class="alu">Already a User <a href="#">Login?</a></span>
+									</div>
+								</form>
+							</div>
+						
+				</div>
+<!--The Navigation Bar-->				
+				<div class="navi">
+					<a class="nes" href="Index.html">Home</a>
+					<a class="activ" href="New_Figures.html">New Figures</a>
+					<a class="low" href="Clothes.html">Clothes and Accessories</a>
+					<a class="new" href="News.html">News</a>
+					<a class="about" href="CV.html">CV</a>
+				
+				</div>
+<!--The Coupon image-->				
+				<div class="home">
+					<a href="#"><img src='img/fig.png' class='promo'></a>
+					<!--News-->
+						<div class="Figurines">
+							<h2 class="yoki">New Figurines</h2>
+							<div class="one">
+								<button type="button"onClick="document.getElementById('show_element').style.display='block'">
+									<img src='img/69.jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element" style="display:none">Sakura Kinomoto: Always Together<br> ~Pinky Promise~<br><strike>$520.99</strike><br>$494.94<br>5% OFF</p>
+							</div>
+							
+							<div class="two">
+								<button type="button"onClick="document.getElementById('show_element2').style.display='block'">
+									<img src='img/77.jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element2" style="display:none">Yoshitoku x F:NEX Cardcaptor Sakura: Clear Card Sakura Kinomoto<br><strike>$1,450.99</strike><br>$1,305.89<br>10% OFF</p>
+							</div>
+							
+							<div class="three">
+								<button type="button"onClick="document.getElementById('show_element3').style.display='block'">
+									<img src='img/images (3).jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element3" style="display:none">A certain scientific accelerator: Accelerator<br><strike>$2,450.99</strike><br>$1,305.89<br>53% OFF</p>
+							</div>
+						
+							<div class="four">
+								<button type="button"onClick="document.getElementById('show_element4').style.display='block'">
+									<img src='img/89.jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element4" style="display:none">Kizuna AI 1/7 Scale Figure<br><strike>$113.99</strike><br>$108.29<br>5% OFF</p>
+							</div><br>
+							
+							<div class="five">
+								<button type="button"onClick="document.getElementById('show_element5').style.display='block'">
+									<img src='img/download (4).jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element5" style="display:none">My Hero Academia X Bungo Stray Dogs : Special Class-1A set<br><strike>$2,450.99</strike><br>$2,305.89<br>5% OFF</p>
+							</div>
+							
+							<div class="six">
+								<button type="button"onClick="document.getElementById('show_element6').style.display='block'">
+									<img src='img/images 4.jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element6" style="display:none">Dororo: Hyakkimaru-Dormant?Recovery Stage ~Vengeance~<br><strike>$1,450.99</strike><br>$1,300.89<br>10% OFF</p>
+							</div>
+							
+							<div class="seven">
+								<button type="button"onClick="document.getElementById('show_element7').style.display='block'">
+									<img src='img/23.jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element7" style="display:none">Hyperdimension Neptunia-Festival Full of Nep Nep<br><strike>$325.99</strike><br>$309.69<br>5% OFF</p>
+							</div>
+							
+							<div class="eight">
+								<button type="button"onClick="document.getElementById('show_element8').style.display='block'">
+									<img src='img/images (2).jpg' class="pay" style="width:150px; height:150px">
+								</button>
+							<p id="show_element8" style="display:none">Jujutsu Kaisen: Gojo Satorou-Domain Expansion Special Edition<br><strike>$3,450.99</strike><br>$3,300.89<br>10% OFF</p>
+							</div>
+						</div>
+				</div>
+				
+		<div class="footer">
+			<div class="social">
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-snapchat"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+			</div>
+			
+		<div class="footier">
+			<div class="footer-heading footer-1">
+				<h2>About Us</h2>
+				<a href="#">Blog</a>
+				<a href="#">Investors</a>
+				<a href="#">Customers</a>
+				<a href="#">Demo</a>
+				<a href="#">Terms of Services</a>
+			</div>
+			
+			<div class="footer-heading footer-2">
+				<h2>News</h2>
+				<a href="#">Animart</a>
+				<a href="#">OtaMart</a>
+				<a href="#">Trending Updates</a>
+				<a href="#">Upcoming shows</a>
+			</div>
+			
+			<div class="footer-heading footer-3">
+				<h2>Recommendations</h2>
+				<a href="#">Clothes</a>
+				<a href="#">Accessories</a>
+				<a href="#">Cosplay</a>
+				<a href="#">Jobs</a>
+			</div>
+		</div>
+			<p class="copyright">
+				Otaku haven @ 20XX
+			</p>
+		</div>
+		
+			</div>		
+		</div>
+		
